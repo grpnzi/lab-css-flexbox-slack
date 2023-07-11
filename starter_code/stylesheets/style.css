@@ -8,3 +8,142 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@media (max-width: 768px)  {
+ header {
+    background-color: #540B51;
+    margin: 0;
+ }
+ main {
+    background-color: #F3EAE2;
+ }
+ .menu{
+display: none;
+ }
+}
+
+.slack-logo{
+    display: flex;
+    align-items: left ;
+    margin: 0;
+    height: 2rem;
+    width: 6rem;
+
+}
+.first-button{
+    display: flex;
+    align-items: right;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between ;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    border-bottom: lightgray solid 1px;
+    
+    
+}
+
+nav .first-button{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction:row;
+
+}
+
+h1{
+    color:white;
+    font-weight: 100rem;
+    text-align: center;
+}
+.first-span{
+    color: orange;
+}
+
+.slack-free{
+    color: #fff;
+    text-align: center;
+}
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email{
+    background-color: #fff;
+    color: #540B51;
+    font-size:large;
+    font-weight: bold;
+    /* padding: 1rem 10rem 1rem 10rem; */
+    width: 90%;
+    height: 2.5rem;
+    text-align: center;
+
+}
+.sign-google {
+    background-color: #4285F4;
+    /* padding: 1rem 10rem 1rem 10rem; */
+    width: 90%;
+    height: 2.5rem;
+    align-items: left;
+}
+
+
+.google-logo {
+    background-color: #fff;
+    border-radius: 4px;
+    width: 2rem;
+    height: 2rem;
+    justify-content: left;
+    
+}
+
+.screenshot {
+    padding-top: 2rem;
+    margin: 0;
+}
+#background-shot{
+    width: 100%;
+    margin: 0;
+}
+
+.trust{
+    color: black;
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: bold;
+}
+.partners{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    
+}
+.images-1{
+width: 25%;
+height: 15%;
+}
+.images-2{
+    width: 15%;
+    height: 5%;
+}
+.images-3{
+    width: 15%;
+    height: 5%;
+}
+
+ .images-4{
+    width: 15%;
+ }
+
+ .images-5{
+    width: 35%;
+    height: 20%;
+ }
+
+ .images-6{
+    width: 15%;
+    height: 5%;
+ }
