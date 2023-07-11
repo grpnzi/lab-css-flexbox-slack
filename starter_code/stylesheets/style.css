@@ -10,6 +10,11 @@ footer links grey: #454245
 */
 
 @media (max-width: 768px)  {
+ body {
+    background-color: #540B51;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
  header {
     background-color: #540B51;
     margin: 0;
@@ -147,3 +152,148 @@ height: 15%;
     width: 15%;
     height: 5%;
  }
+
+
+.image-connectedness {
+    width: 100%;
+    margin: 0;
+    padding-top: 4rem;
+
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+
+.features {
+    margin: 0;
+    padding-bottom: 3rem;
+}
+
+.p-features {
+    font-size: larger;
+}
+
+.a-features {
+    outline: none;
+
+}
+
+.second-span {
+    outline: none;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.p-teams {
+    text-align: center;
+    justify-content: center;
+}
+
+.meet-slack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.botton-slack {
+    width: 95%;
+    height: 3rem;
+    margin: 0.5rem;
+    background-color: #540B51;
+    color: #fff;
+    font-weight: bold;
+}
+
+.botton-sales {
+    width: 95%;
+    height: 3rem;  
+    margin: 0.5rem; 
+    background-color: #fff;
+    color: #540B51;
+    font-weight: bold;
+}
+.percentage {
+    list-style-type: none;
+
+}
+
+.percentage span {
+    color: #540B51;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+.percentage-section {
+    text-align: center;
+}
+
+.percentage p {
+    font-weight: bold;
+}
+.welcome {
+    background-color: #540B51;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.welcome h3 {
+    color: #fff;
+}
+
+.button-try {
+    width: 95%;
+    height: 3rem;  
+    margin: 0.5rem; 
+    background-color: #fff;
+    color: #540B51;
+    font-weight: bold;
+}
+
+.button-talk {
+    width: 95%;
+    height: 3rem;
+    margin: 0.5rem;
+    background-color: #540B51;
+    color: #fff;
+    font-weight: bold;
+    border: #fff solid 1px;
+}
+
+footer {
+    background-color: #fff;
+}
+
+.list-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.list-footer ul {
+    list-style-type: none;
+}
+
+
+.footer {
+    list-style-type: none;
+}
+
+.footer li {
+    font-weight: bold;
+}
+
+.sm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
